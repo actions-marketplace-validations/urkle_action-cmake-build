@@ -1,10 +1,11 @@
 name: 'Build CMake'
 description: 'Configure, Build and Test a CMake project'
-author: 'Ashutosh Varma'
+author: 'Ashutosh Varma & Edward Rudd'
 inputs:
   source-dir: 
     description: Source root directory where top level CMake script is present
     default: ${{ github.workspace }}
+    required: true
   build-dir:
     description: Build directory where build files will be generated
     default: "${{ github.workspace }}/../build"

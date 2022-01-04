@@ -1,4 +1,4 @@
-![Main workflow](https://github.com/ashutoshvarma/action-cmake-build/workflows/Main%20Workflow/badge.svg)
+![Main workflow](https://github.com/urkle/action-cmake-build/workflows/Main%20Workflow/badge.svg)
 
 # action-cmake-build
 
@@ -9,7 +9,7 @@ Build & Test CMake Projects with GitHub workflows.
 This acion does not manage dependencies for you, all the dependencies for your project should be resolved before using this action.
 ```yaml
    - name: Build & Test
-        uses: ashutoshvarma/action-cmake-build@master
+        uses: urkle/action-cmake-build@v1
         with:
           build-dir: ${{ runner.workspace }}/build
           # will set the CC & CXX for cmake
@@ -27,9 +27,10 @@ This acion does not manage dependencies for you, all the dependencies for your p
 ```
 
 ### Action Reference: All Input/Output & Defaults
-[action.yml](https://github.com/ashutoshvarma/action-cmake-build/blob/master/action.yml) 
+[action.yml](https://github.com/urkle/action-cmake-build/blob/master/action.yml) 
 
 ## License
 All the content in this repository is licensed under the MIT License.
 
 Copyright (c) 2019-2020 Ashutosh Varma
+Copyright (c) 2021 Edward Rudd

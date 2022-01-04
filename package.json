@@ -1,6 +1,6 @@
 {
   "name": "action-cmake-build",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Github action to Build & Test CMake projects",
   "main": "lib/main.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashutoshvarma/action-cmake-build.git"
+    "url": "git+https://github.com/urkle/action-cmake-build.git"
   },
   "keywords": [
     "actions",
