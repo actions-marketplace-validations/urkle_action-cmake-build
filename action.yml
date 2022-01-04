@@ -1,4 +1,4 @@
-name: 'Build CMake'
+name: 'Advanced Build CMake'
 description: 'Configure, Build and Test a CMake project'
 author: 'Ashutosh Varma & Edward Rudd'
 inputs:
